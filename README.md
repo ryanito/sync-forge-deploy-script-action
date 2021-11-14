@@ -2,24 +2,6 @@
 
 Updates your deploy script on Laravel Forge from a file within your repository.
 
-## Inputs
-
-## `api_key`
-
-**Required** Your Laravel Forge API Key.
-
-## `server_id`
-
-**Required** Your Laravel Forge Server ID.
-
-## `site_id`
-
-**Required** Your Laravel Forge Site ID.
-
-## `path`
-
-**Required** The path to your deploy script.
-
 ## Usage
 
 This action updates your Laravel Forge **Deploy Script** with the contents of a given file.
@@ -37,3 +19,21 @@ I keep my deploy script at `.forge/deploy.sh` but this could be anywhere within 
     site_id: 1
     path: .forge/deploy.sh
 ```
+
+## Inputs
+
+### `api_key`
+
+**Required** Your Laravel Forge API Key.
+
+### `server_id`
+
+**Required** Your Laravel Forge Server ID.
+
+### `site_id`
+
+**Required** Your Laravel Forge Site ID.
+
+### `path`
+
+**Required** The path to your deploy script.

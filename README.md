@@ -1,4 +1,4 @@
-# Update Laravel Forge Deploy Script Action
+# Sync Laravel Forge Deploy Script Action
 
 Updates your deploy script on Laravel Forge from a file within your repository.
 

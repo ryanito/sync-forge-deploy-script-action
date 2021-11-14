@@ -14,7 +14,7 @@ inputs:
   site_id:
     description: 'Laravel Forge Site ID'
     required: true
-  path:
+  script_path:
     description: 'Path to your deploy script'
     required: true
 runs:
@@ -24,4 +24,4 @@ runs:
     API_KEY: ${{ inputs.api_key }}
     SERVER_ID: ${{ inputs.server_id }}
     SITE_ID: ${{ inputs.site_id }}
-    PATH: ${{ inputs.path }}
+    SCRIPT_PATH: ${{ inputs.script_path }}

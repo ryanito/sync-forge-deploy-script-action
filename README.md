@@ -17,7 +17,7 @@ I keep my deploy script at `.forge/deploy.sh` but this could be anywhere within 
     api_key: ${{ secrets.API_KEY }}
     server_id: 1
     site_id: 1
-    path: .forge/deploy.sh
+    script_path: .forge/deploy.sh
 ```
 
 ## Inputs
@@ -34,6 +34,6 @@ I keep my deploy script at `.forge/deploy.sh` but this could be anywhere within 
 
 **Required** Your Laravel Forge Site ID.
 
-### `path`
+### `script_path`
 
 **Required** The path to your deploy script.

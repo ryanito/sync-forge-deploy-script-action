@@ -14,7 +14,7 @@ I keep my deploy script at `.forge/deploy.sh` but this could be anywhere within 
 - name: Sync deploy script
   uses: ryanito/sync-forge-deploy-script-action@v1
   with:
-    api_key: ${{ secrets.API_KEY }}
+    api_key: ${{ secrets.FORGE_API_KEY }}
     server_id: 1
     site_id: 1
     script_path: .forge/deploy.sh

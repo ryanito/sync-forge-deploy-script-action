@@ -6,8 +6,8 @@ update_deploy_script() {
         --fail \
         --silent \
         --show-error \
-        --max-time 5 \
-        --connect-timeout 5 \
+        --max-time 30 \
+        --connect-timeout 30 \
         --request 'PUT' \
         -H "Authorization: Bearer $API_KEY" \
         -H "Accept: application/json" \
